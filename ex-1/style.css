@@ -1,1 +1,49 @@
-/* Start coding here */
+body {
+    background-color: #FFFFFF !important;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    background-color: white !important;
+    padding: 20px;
+
+}
+
+.header {
+    background-color: #89A2B8 !important;
+    padding: 20px;
+    font-size: 32px;
+    color: #183B56 !important;
+    font-weight: bold;
+
+}
+
+.blog-post {
+    background-color: #D4DCE3 !important;
+    border: 2px solid #2F4F66;
+    padding: 20px;
+    margin: 50px 0;
+    width: 40vw;
+
+}
+
+.title-message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #183B56;
+}
+
+.description {
+    font-size: 16px;
+    color:#183B56;
+    margin-top: 20px;
+
+}
