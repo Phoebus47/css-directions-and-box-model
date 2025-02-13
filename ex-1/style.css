@@ -1,1 +1,40 @@
 /* Start coding here */
+*{
+    color: #183B56;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Sarabun', Arial, sans-serif;
+    background-color: #92AABD;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Sarabun', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Redacted Script', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.container-cafe, .container-place {
+
+    border:#183B56 solid 3px;
+    background-color: #E4E9ED;
+    width: 30vw;
+    height: 30vh;
+    top: 170px;
+    left: 55px;
+    padding: 24px;
+    margin: 50px;
+}
